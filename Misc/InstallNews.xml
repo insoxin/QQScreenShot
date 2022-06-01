@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+  <App comment="安装包新功能,有疑问请电联maple" enable="1" waitting="60000" version="5581">
+
+
+  <Item lable="全新改版" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/quanxingaiban.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+
+  <Item lable="全新改版" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/quanxingaibanx2.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+  
+  <Item lable="趣秀个性" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/quxiugexing.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+
+  <Item lable="趣秀个性" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/quxiugexingx2.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+
+  <Item lable="趣享内容" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/quxiangneirong.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+
+  <Item lable="趣享内容" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/quxiangneirongx2.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/> 
+  
+  <Item lable="趣识好友" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/qushihaoyou.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+
+  <Item lable="趣识好友" image="http://dldir1.qq.com/qqfile/qq/pic/livesports/logo/qushihaoyoux2.png" guid="" link="" wndlink="http://im.qq.com/pcqq/" wndguid=""  startText=""/>
+
+ 
+
+       
+
+
+
+	
+      
+          
+      <!--配置说明
+      const TCHAR image[]        = _T("image");    //功能介绍图片链接
+      const TCHAR lable[]        = _T("lable");    //功能标签文本
+      const TCHAR link[]         = _T("link");     //激活按钮跳转链接
+      const TCHAR startText[]    = _T("startText");//激活按钮的文本
+      const TCHAR guid[]         = _T("guid");     //激活按钮跳转功能的guid
+      const TCHAR enable[]       = _T("enable");   //配置是否生效
+      const TCHAR waitting[]     = _T("waitting"); //弹出延时时间
+      const TCHAR version[]      = _T("version");  //有效的版本
+      const TCHAR wndLink[]      = _T("wndlink");  //窗口点击跳转链接
+	  
+      -->
+  </App>
