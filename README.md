@@ -10,6 +10,8 @@
 链接：https://pan.baidu.com/s/1yENiFF3KDdZTDfqig6X98A 
 提取码：oa7c
 
+3. 修改默认截图文件名为ScreenShot日期
+
 下载ocr_system.zip后解压到 Bin\ocr_system 文件夹下, 然后 右键托盘图标 -> 切换OCR引擎 -> 选择PaddleOCR -> 确定 即可
 
 
