@@ -19,7 +19,7 @@ echo oShellLink.WindowStyle=1
 echo oShellLink.Description="%Desc%"
 echo oShellLink.Save)>makelnk.vbs
 echo 桌面快捷方式创建成功！ 
-echo www.x6d.com
+echo https://github.com/insoxin/QQScreenShot
 makelnk.vbs
 del /f /q makelnk.vbs
 exit
