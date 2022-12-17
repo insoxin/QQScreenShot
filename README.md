@@ -14,7 +14,26 @@
 
 下载ocr_system.zip后解压到 Bin\ocr_system 文件夹下, 然后 右键托盘图标 -> 切换OCR引擎 -> 选择PaddleOCR -> 确定 即可
 
+---------
+更新事项(v3.0):
+已逆向出屏幕录制功能, 后续若无重大BUG则不再更新
 
+
+1. 录屏功能逆出来了, 预览界面点右下角那个对勾后会保存到临时文件夹
+
+2. 新增命令行参数oneshot, noplugin, noconfig 例如:
+
+QQScreenShot –oneshot=10, 执行一次截图并在10s后退出程序(截图Call是异步的,采用这种方式也是没办法的办法)
+
+QQScreenShot –noplugin(或-p), 不加载录屏插件
+
+QQScreenShot –noconfig(或-c), 不加载配置文件即使用默认配置
+
+3. “切换热键”新增NULL选择, 即可以设置一个键的热键
+
+4. 消息循环改用QQ的MessgeLoopForUI类
+
+5. 托盘菜单新增”打开临时文件夹”选项, 有时OCR失败或者录屏导致没有删除的临时文件可手动删除
 
 ---------
 
